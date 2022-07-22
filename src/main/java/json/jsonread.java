@@ -26,8 +26,7 @@ public class jsonread {
           
         System.out.println(firstName);
         System.out.println(lastName);
-        System.out.println("No error");
-          
+
         // getting age
         long age = (long) jo.get("age");
         System.out.println(age);
@@ -54,6 +53,7 @@ public class jsonread {
             while (itr1.hasNext()) {
                 Map.Entry pair = itr1.next();
                 System.out.println(pair.getKey() + " : " + pair.getValue());
+                System.out.println("Error is cleared ");
             }
         }
     }
