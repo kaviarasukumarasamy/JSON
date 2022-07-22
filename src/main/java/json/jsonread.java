@@ -26,7 +26,7 @@ public class jsonread {
           
         System.out.println(firstName);
         System.out.println(lastName);
-       // System.out.println(lastName);
+        
           
         // getting age
         long age = (long) jo.get("age");
